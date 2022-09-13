@@ -59,14 +59,26 @@ main {
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+	font-weight: bolder;
+	padding:10px;
+	border-radius:10px;
+}
+.nav-list li:hover {
+	background:white;
+	
+}
+.nav-list li a:hover{
+	color:#008037;
 }
 
 #texto {
     text-align: left;
     margin: 45px;
+	padding:0px 50px;
     font-size: 25px;
     color: black;
     font-style: italic;
+	
 }
 
 img {
